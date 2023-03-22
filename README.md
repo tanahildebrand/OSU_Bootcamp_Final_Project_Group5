@@ -1,7 +1,7 @@
-# OSU Data Bootcamp Final Project (Group 5)
+# Can what you eat predict your happiness?
 
 ## Topic
-The World Happiness Report uses global survey data to rank more than 150 countries worldwide based on the levels of happiness and well-being. It measures "happiness" based on six criteria: income, healthy life expectancy, having someone to count on in times of trouble (family size), generosity, freedom and trust, with the latter measured by the absence of corruption in business and government. Our goal is to determine if a country's cultural dietary habits predict their World Happiness Score.
+The World Happiness Report uses global survey data to rank more than 150 countries worldwide based on the levels of happiness and well-being. It measures "happiness" based on six criteria: income, healthy life expectancy, having someone to count on in times of trouble (family size), generosity, freedom and trust (absence of corruption in business and government). Our goal is to determine if a country's dietary habits predict their World Happiness Score.
 
 ## Data Sources
  - World Happiness Dataset: https://www.kaggle.com/datasets/hari31416/world-happiness-report
@@ -10,11 +10,12 @@ The World Happiness Report uses global survey data to rank more than 150 countri
 ## Questions
 - Does the dietary breakdown predict the countries' happiness score?
 - Does obesity correlate to happiness at the same rate as carbohydrate intake?
-- Does alcohol consumption alone contribute to happiness?
+- Does alcohol consumption contribute to happiness?
+- Does an increase in any foods cause happiness to decrease?
 
 ## Discovery
 
-Aaron
+### Aaron
 
 ### Python (Laurice Ramirez)
 The raw data from Covid19 Healthy Diet Dataset was uploaded to Pandas. The following steps was utilized to clean the data:
@@ -27,7 +28,7 @@ The raw data from Covid19 Healthy Diet Dataset was uploaded to Pandas. The follo
 The final result was saved as kcal_by_country_df.csv with an end result of 170 total countries. (dietary_intake_by_country_df)
 ![image](https://user-images.githubusercontent.com/115942978/227000762-dc3b1440-ad32-447e-8bd7-10dc580f19e1.png)
 
-Shameen
+### Shameen
 
 ### PostgreSQL (Mary Hill)
 
@@ -37,4 +38,7 @@ The cleaned datasets and the QuickDBD Diagram were loaded into PGAdmin. Displayi
 <img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/667067fd43038d76b85f0387d2383513ff0cee78/postgresql_table.png ">
 </p><br/>
 
-Tana
+### Predictive Model
+Given that we have multiple independent data points trying to predict one numerical value, we need to use Multiple Linear Regression for our model. Before we build the model, we wanted to ensure that each individual independent variable has a linear relationship to the happiness score.  To do this, I created a graph of each independent variable to happiness scores.
+
+![Alcoholic Beverages](Predictive_Models/Charts/Alcoholic_Bebverages.png)
