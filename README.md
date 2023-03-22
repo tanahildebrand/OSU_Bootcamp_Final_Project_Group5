@@ -1,4 +1,4 @@
-# OSU Data Bootcamp Final Project (Group 5)
+# Does what you eat make you happy?
 
 ## Topic
 The World Happiness Report uses global survey data to rank more than 150 countries worldwide based on the levels of happiness and well-being. It measures "happiness" based on six criteria: income, healthy life expectancy, having someone to count on in times of trouble (family size), generosity, freedom and trust, with the latter measured by the absence of corruption in business and government. Our goal is to determine if a country's cultural dietary habits predict their World Happiness Score.
@@ -28,7 +28,7 @@ The final result was saved as kcal_by_country_df.csv with an end result of 170 t
 ![image](https://user-images.githubusercontent.com/115942978/227000762-dc3b1440-ad32-447e-8bd7-10dc580f19e1.png)
 
 
-### Data Visualization Entity Relationship Diagram (Shameen Khan)  
+### Data Visualization Entity Relationship Diagram
  
 The kcal_by_country.csv provided data that was ready to be organized into a entity relationship diagram. The two data sets were then detailed into data type, primary key and each cateogory that could be potentially used in the linear regression. The first table is called "World_Happiness" and includes the data of each "Country" and their "Happiness Score". The second table "Kcal_by country" includes "Country", "Animal_fats", "Animal_Products", and many more which are included in the image below.  
  
