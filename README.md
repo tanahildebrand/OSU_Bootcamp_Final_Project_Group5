@@ -17,10 +17,18 @@ The World Happiness Report uses global survey data to rank more than 150 countri
 Aaron
 
 ### Python (Laurice Ramirez)
+The raw data from Covid19 Healthy Diet Dataset was uploaded to Pandas. The following steps was utilized to clean the data we have acquired
+ df.describe()
+ df.dtypes
+ df.drop
+ df.isnull().sum()
+ df.dropna()
+The final result was saved as kcal_by_country_df.csv 
+![image](https://user-images.githubusercontent.com/115942978/227000762-dc3b1440-ad32-447e-8bd7-10dc580f19e1.png)
 
 Shameen
 
-### PostgreSQL (Mary 
+### PostgreSQL (Mary Hill)
 
 The cleaned datasets and the QuickDBD Diagram were loaded into PGAdmin. Displaying the data in tables including one with all the data merged. There was some additional changes made to both datasets to make sure the Key data (Country) was matching. Below is the final result.
 
