@@ -24,7 +24,7 @@ The raw data from Covid19 Healthy Diet Dataset was uploaded to Pandas. The follo
 - `df.isnull().sum()`: returns the number of missing values (NaN) in each column of the DataFrame
 - `df.dropna()`: removes rows or columns with missing values from a DataFrame
 
-The final result was saved as kcal_by_country_df.csv with an end result of 170 total countries. (dietary_intake_by_country_df)
+The final result was saved as kcal_by_country_df.csv with an end result of 170 total countries. (food_supply_df)
 ![image](https://user-images.githubusercontent.com/115942978/227000762-dc3b1440-ad32-447e-8bd7-10dc580f19e1.png)
 
 
