@@ -1,7 +1,7 @@
 # OSU Data Bootcamp Final Project (Group 5)
 
 ## Topic
-The World Happiness Report uses global survey data to rank more than 150 countries worldwide based on the levels of happiness and well-being. It measures "happiness" based on six criteria: income, healthy life expectancy, having someone to count on in times of trouble (family size), generosity, freedom and trust, with the latter measured by the absence of corruption in business and government. Our goal is to determine if a country's dietary habits predict their World Happiness Score.
+The World Happiness Report uses global survey data to rank more than 150 countries worldwide based on the levels of happiness and well-being. It measures "happiness" based on six criteria: income, healthy life expectancy, having someone to count on in times of trouble (family size), generosity, freedom and trust, with the latter measured by the absence of corruption in business and government. Our goal is to determine if a country's cultural dietary habits predict their World Happiness Score.
 
 ## Data Sources
  - World Happiness Dataset: https://www.kaggle.com/datasets/hari31416/world-happiness-report
