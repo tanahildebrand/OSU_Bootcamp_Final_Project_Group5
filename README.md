@@ -9,6 +9,14 @@ The World Happiness Report uses global survey data to report how people evaluate
 
 ## Questions
 
-## Phase 1 - Discovery
+## Discovery
 
-Must include images, descriptions, results
+Aaron
+
+Laurice
+
+Shameen
+
+Mary
+
+Tana
