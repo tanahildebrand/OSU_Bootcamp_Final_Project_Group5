@@ -1,7 +1,7 @@
 # OSU Data Bootcamp Final Project (Group 5)
 
 ## Topic
-The World Happiness Report uses global survey data to report how people evaluate their own lives in more than 150 countries worldwide. It measures "happiness" based on six criteria: income, healthy life expectancy, having someone to count on in times of trouble (family size), generosity, freedom and trust, with the latter measured by the absence of corruption in business and government. With this review, we want to determine if a country's dietary habits predict their World Happiness Score.
+The World Happiness Report uses global survey data to rank more than 150 countries worldwide based on the levels of happiness and well-being. It measures "happiness" based on six criteria: income, healthy life expectancy, having someone to count on in times of trouble (family size), generosity, freedom and trust, with the latter measured by the absence of corruption in business and government. Our goal is to determine if a country's dietary habits predict their World Happiness Score.
 
 ## Data Sources
  - World Happiness Dataset: https://www.kaggle.com/datasets/hari31416/world-happiness-report
@@ -16,13 +16,11 @@ The World Happiness Report uses global survey data to report how people evaluate
 
 Aaron
 
-Laurice
+### Python (Laurice Ramirez)
 
 Shameen
 
-Mary
-
-### PostgreSQL
+### PostgreSQL (Mary 
 
 The cleaned datasets and the QuickDBD Diagram were loaded into PGAdmin. Displaying the data in tables including one with all the data merged. There was some additional changes made to both datasets to make sure the Key data (Country) was matching. Below is the final result.
 
