@@ -55,7 +55,7 @@ Given that we have multiple independent data points trying to predict one numeri
 #### Example of a food type that DID NOT correlate:
 ![Offals](/Predictive_Models/Charts/Offals.png)
 
-In total, there were XXX independent food types that correlated:
+In total, there were 10 independent variables that correlated with happiness:
 - Alcoholic Beverages
 - Animal Fats
 - Animal Products
