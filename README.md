@@ -22,4 +22,12 @@ Shameen
 
 Mary
 
+### PostgreSQL
+
+The cleaned datasets and the QuickDBD Diagram were loaded into PGAdmin. Displaying the data in tables including one with all the data merged. There was some additional changes made to both datasets to make sure the Key data (Country) was matching. Below is the final result.
+
+<p align="center">
+<img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/667067fd43038d76b85f0387d2383513ff0cee78/postgresql_table.png ">
+</p><br/>
+
 Tana
