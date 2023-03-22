@@ -46,4 +46,32 @@ The cleaned datasets and the QuickDBD Diagram were loaded into PGAdmin. Displayi
 <img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/667067fd43038d76b85f0387d2383513ff0cee78/postgresql_table.png ">
 </p><br/>
 
-Tana
+### Predictive Model
+Given that we have multiple independent data points trying to predict one numerical value, we need to use Multiple Linear Regression for our model. Before we build the model, we needed to ensure that each individual independent variable has a linear relationship to the happiness score.  To do this, I created a graph of each independent variable to happiness scores
+
+#### Example of a food type that DID correlate:
+![Meat](/Predictive_Models/Charts/Meat.png)
+
+#### Example of a food type that DID NOT correlate:
+![Offals](/Predictive_Models/Charts/Offals.png)
+
+In total, there were XXX independent food types that correlated:
+- Alcoholic Beverages
+- Animal Fats
+- Animal Products
+- Cereal (Excluding Beer)
+- Eggs
+- Meat
+- Milk (Excluding Butter)
+- Vegetable Products
+- Vegetables
+- Obesity
+ 
+We then used a Multiple Linear Regression model to predict World Happiness, using only the previously identified variables. The performance of the model shows that 59.95% of the data fit the regression model.
+
+```
+R squared: 59.95
+Mean Absolute Error: 0.592440629442399
+Mean Square Error: 0.5334936507188065
+Root Mean Square Error: 0.7304064969034754
+```
