@@ -18,5 +18,7 @@ Laurice
 Shameen
 
 Mary
+# PostgreSQL 
+After taking the cleaned data that both Aaron and Laurice completed, tables were created to further merge the information from both datasets. The data had to be cleaned further to match the key category (Country) between both datasets. Once completed, they were imported using PGAdmin into the Quick DBD diagram that Shameen created. Finally, tables were created for both datasets and then a combined table with all the data.
 
 Tana
