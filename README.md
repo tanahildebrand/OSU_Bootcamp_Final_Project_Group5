@@ -1,16 +1,22 @@
 # Does what you eat make you happy?
 
 ## Topic
-The World Happiness Report uses global survey data to rank more than 150 countries worldwide based on the levels of happiness and well-being. It measures "happiness" based on six criteria: income, healthy life expectancy, having someone to count on in times of trouble (family size), generosity, freedom and trust, with the latter measured by the absence of corruption in business and government. Our goal is to determine if a country's cultural dietary habits predict their World Happiness Score.
+The World Happiness Report is an annual report published by the United Nations Sustainable Development Solutions Network that ranks countries by their happiness levels. The report takes into account a variety of factors such as income, social support, freedom to make life choices, generosity, perceptions of corruption, and overall well-being to determine the happiness levels of people in different countries.
+
+The report ranks countries on a scale of 0-10, with 10 being the highest level of happiness. Our goal is to determine if a country's dietary habits predict their score for the World Happiness Report. We chose dietary habits to because it is not currently considered in the happiness report, but is a major part of human daily life.
 
 ## Data Sources
  - World Happiness Dataset: https://www.kaggle.com/datasets/hari31416/world-happiness-report
+   - The dataset has a more normalized form of the world happiness data from year 2015 to 2022. We chose to use data from 2021 as it compares to the data from the below dataset.
  - Covid19 Healthy Diet Dataset: https://www.kaggle.com/datasets/mariaren/covid19-healthy-diet-dataset
+   - Of the the 4 datasets available, we chose to use the energy intake (kcal) dataset as we felt calories were the most commonly looked at metric. The kcal is calculated as percentage of total intake amount. The data set also includes obesity rate and COVID-19 data, the latter of which we removed from our dataset as it is not related to qusetions. The data used is from 2021.
 
 ## Questions
 - Does the dietary breakdown predict the countries' happiness score?
 - Does obesity correlate to happiness at the same rate as carbohydrate intake?
 - Does alcohol consumption alone contribute to happiness?
+- Does happiness increase as intake of a particular food decreases?
+- Does happiness increase as intake of a particular food increases?
 
 ## Discovery
 
@@ -34,18 +40,15 @@ The raw data from Covid19 Healthy Diet Dataset was uploaded to Pandas. The follo
 The final result was saved as kcal_by_country_df.csv with an end result of 170 total countries. (food_supply_df)
 ![image](https://user-images.githubusercontent.com/115942978/227000762-dc3b1440-ad32-447e-8bd7-10dc580f19e1.png)
 
-
 ### Data Visualization Entity Relationship Diagram
  
 The kcal_by_country.csv provided data that was ready to be organized into a entity relationship diagram. The two data sets were then detailed into data type, primary key and each cateogory that could be potentially used in the linear regression. The first table is called "World_Happiness" and includes the data of each "Country" and their "Happiness Score". The second table "Kcal_by country" includes "Country", "Animal_fats", "Animal_Products", and many more which are included in the image below.  
  
 Entity Relationship Diagram
  
-![image](ERD.png)
- 
- 
+![image](ERD.png) 
 
-### PostgreSQL 
+### PostgreSQL
 
 The cleaned datasets and the QuickDBD Diagram were loaded into PGAdmin. Displaying the data in tables including one with all the data merged. There was some additional changes made to both datasets to make sure the Key data (Country) was matching. Below is the final result.
 
@@ -74,7 +77,7 @@ In total, there were 10 independent variables that correlated with happiness:
 - Vegetables
 - Obesity
  
-We then used a Multiple Linear Regression model to predict World Happiness, using only the previously identified variables. The performance of the model shows that 59.95% of the data fit the regression model.
+We then used a Multiple Linear Regression model to predict the World Happiness Score, using only the previously identified variables. The performance of the model shows that 59.95% of the data fit the regression model.
 
 ```
 R squared: 59.95
