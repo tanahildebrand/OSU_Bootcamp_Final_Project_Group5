@@ -14,9 +14,16 @@ The World Happiness Report uses global survey data to rank more than 150 countri
 
 ## Discovery
 
-Aaron
-
 ### Python 
+
+The World Happiness Dataset for 2021 was loaded into a pandas dataframe. The following steps were used to clean the data:
+- `df.drop`: to remove all of the columns from the dataset except the country names and the overall happiness score.
+- `df.isnull().sum()`: to test for any null values in the dataset. The result was '0', so we were good to proceed.
+- `df.rename`: to change the remaining column names to something consistent with other Happiness Datasets, camel-casing.
+- `df.to_csv`: uploading the finished dataframe so it can be uploaded into a Postgres database.
+
+![This is an image](https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/main/Resources/happiness_df.png)
+
 The raw data from Covid19 Healthy Diet Dataset was uploaded to Pandas. The following steps was utilized to clean the data:
 - `df.describe()`: creates descriptive statistics of a Pandas DataFrame
 - `df.dtypes`: shows the data type of each column in the DataFrame
