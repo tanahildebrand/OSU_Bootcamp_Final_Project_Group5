@@ -3,7 +3,7 @@
 ## Topic
 The World Happiness Report is an annual report published by the United Nations Sustainable Development Solutions Network that ranks countries by their happiness levels. The report takes into account a variety of factors such as income, social support, freedom to make life choices, generosity, perceptions of corruption, and overall well-being to determine the happiness levels of people in different countries.
 
-The report ranks countries on a scale of 0-10, with 10 being the highest level of happiness. Our goal is to determine if a country's dietary habits predict their score for the World Happiness Report. We chose dietary habits to because it is not currently considered in the happiness report, but is a major part of human daily life.
+The report ranks countries on a scale of 0-10, with 10 being the highest level of happiness. Our goal is to determine if a country's dietary habits predict their score for the World Happiness Report. We chose dietary habits because it is not currently considered in the happiness report, but is a major part of human daily life.
 
 ## Data Sources
  - World Happiness Dataset: https://www.kaggle.com/datasets/hari31416/world-happiness-report
