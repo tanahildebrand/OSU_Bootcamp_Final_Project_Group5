@@ -46,15 +46,13 @@ The kcal_by_country.csv provided data that was ready to be organized into a enti
  
 Entity Relationship Diagram
  
-![image](ERD.png) 
+![image](https://user-images.githubusercontent.com/115942978/227723764-d20ece9c-cde3-431f-8b53-d9df2ebb063f.png)
 
 ### PostgreSQL
 
 The cleaned datasets and the QuickDBD Diagram were loaded into PGAdmin. Displaying the data in tables including one with all the data merged. There was some additional changes made to both datasets to make sure the Key data (Country) was matching. Below is the final result.
 
-<p align="center">
-<img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/667067fd43038d76b85f0387d2383513ff0cee78/postgresql_table.png ">
-</p><br/>
+![image](https://user-images.githubusercontent.com/115942978/227723742-18b774b5-60cb-48aa-aaf8-b28e74f4f316.png)
 
 ### Predictive Model
 Given that we have multiple independent data points trying to predict one numerical value, we need to use Multiple Linear Regression for our model. Before we build the model, we needed to ensure that each individual independent variable has a linear relationship to the happiness score.  To do this, I created a graph of each independent variable to happiness scores
