@@ -28,7 +28,7 @@ The World Happiness Dataset for 2021 was loaded into a pandas dataframe. The fol
 - `df.rename`: to change the remaining column names to something consistent with other Happiness Datasets, camel-casing.
 - `df.to_csv`: uploading the finished dataframe so it can be uploaded into a Postgres database.
 
-![image](https://user-images.githubusercontent.com/115942978/227724113-53573770-4409-440a-8447-396fc5d58e2b.png)
+![image](https://user-images.githubusercontent.com/115942978/227724159-f0843943-a381-4500-b0ae-55fa1d4a40b0.png)
 
 The raw data from Covid19 Healthy Diet Dataset was uploaded to Pandas. The following steps was utilized to clean the data:
 - `df.describe()`: creates descriptive statistics of a Pandas DataFrame
