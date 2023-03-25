@@ -58,10 +58,10 @@ The cleaned datasets and the QuickDBD Diagram were loaded into PGAdmin. Displayi
 Given that we have multiple independent data points trying to predict one numerical value, we need to use Multiple Linear Regression for our model. Before we build the model, we needed to ensure that each individual independent variable has a linear relationship to the happiness score.  To do this, I created a graph of each independent variable to happiness scores
 
 #### Example of a food type that DID correlate:
-![Meat](/Predictive_Models/Charts/Meat.png)
+![image](https://user-images.githubusercontent.com/115942978/227723967-a44ed6a3-00af-4ae8-9cf2-2af8c45f96c1.png)
 
 #### Example of a food type that DID NOT correlate:
-![Offals](/Predictive_Models/Charts/Offals.png)
+![image](https://user-images.githubusercontent.com/115942978/227723993-54f69cd0-d912-4f5e-b761-39def2ef893c.png)
 
 In total, there were 10 independent variables that correlated with happiness:
 - Alcoholic Beverages
