@@ -16,13 +16,12 @@ Canada,7.103
 Ireland,7.085
 Costa Rica,7.069
 United Kingdom,7.064
-Czech Republic,6.965
-United States,6.951
+Czechia,6.965
+United States of America,6.951
 Belgium,6.834
 France,6.69
-Bahrain,6.647
 Malta,6.602
-Taiwan Province of China,6.584
+Taiwan*,6.584
 United Arab Emirates,6.561
 Saudi Arabia,6.494
 Spain,6.491
@@ -30,8 +29,6 @@ Italy,6.483
 Slovenia,6.461
 Guatemala,6.435
 Uruguay,6.431
-Singapore,6.377
-Kosovo,6.372
 Slovakia,6.331
 Brazil,6.33
 Mexico,6.317
@@ -60,10 +57,9 @@ Portugal,5.929
 Honduras,5.919
 Croatia,5.882
 Philippines,5.88
-South Korea,5.845
+"Korea, South",5.845
 Peru,5.84
 Bosnia and Herzegovina,5.813
-Moldova,5.766
 Ecuador,5.764
 Kyrgyzstan,5.744
 Greece,5.723
@@ -72,18 +68,14 @@ Mongolia,5.677
 Paraguay,5.653
 Montenegro,5.581
 Dominican Republic,5.545
-North Cyprus,5.536
 Belarus,5.534
-Russia,5.477
-Hong Kong S.A.R. of China,5.477
+Russian Federation,5.477
 Tajikistan,5.466
 Vietnam,5.411
-Libya,5.41
 Malaysia,5.384
 Indonesia,5.345
-Congo (Brazzaville),5.342
+Congo,5.342
 China,5.339
-Ivory Coast,5.306
 Armenia,5.283
 Nepal,5.269
 Bulgaria,5.266
@@ -98,14 +90,14 @@ Niger,5.074
 Turkmenistan,5.066
 Gambia,5.051
 Benin,5.045
-Laos,5.03
+Lao People's Democratic Republic,5.03
 Bangladesh,5.025
 Guinea,4.984
 South Africa,4.956
 Turkey,4.948
 Pakistan,4.934
 Morocco,4.918
-Venezuela,4.892
+Venezuela (Bolivarian Republic of),4.892
 Georgia,4.891
 Algeria,4.887
 Ukraine,4.875
@@ -116,20 +108,18 @@ Cambodia,4.83
 Mozambique,4.794
 Nigeria,4.759
 Mali,4.723
-Iran,4.721
+Iran (Islamic Republic of),4.721
 Uganda,4.636
 Liberia,4.625
 Kenya,4.607
 Tunisia,4.596
 Lebanon,4.584
 Namibia,4.574
-Palestinian Territories,4.517
 Myanmar,4.426
 Jordan,4.395
 Chad,4.355
 Sri Lanka,4.325
-Swaziland,4.308
-Comoros,4.289
+Eswatini,4.308
 Egypt,4.283
 Ethiopia,4.275
 Mauritania,4.227
@@ -138,9 +128,7 @@ Togo,4.107
 Zambia,4.073
 Sierra Leone,3.849
 India,3.819
-Burundi,3.775
 Yemen,3.658
-Tanzania,3.623
 Haiti,3.615
 Malawi,3.6
 Lesotho,3.512

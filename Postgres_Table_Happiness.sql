@@ -33,7 +33,7 @@ CREATE TABLE "Kcal_by_Country" (
     "Treenuts" numeric   NOT NULL,
     "Vegetal_Products" numeric   NOT NULL,
     "Vegetable_Oils" numeric   NOT NULL,
-    "Vegtables" numeric   NOT NULL,
+    "Vegetables" numeric   NOT NULL,
     "Obesity" numeric   NOT NULL,
     "Population" numeric   NOT NULL,
     CONSTRAINT "pk_Kcal_by_Country" PRIMARY KEY (

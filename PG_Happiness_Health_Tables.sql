@@ -7,8 +7,8 @@ SELECT * FROM public."Kcal_by_Country"
 ORDER BY "Country" ASC LIMIT 100
 
 -- Combine data from Kcal_by_Country and World_Happiness
-SELECT w.country, w.happiness_score, k."Alcoholic_Beverages",k."Animal_Products",k."Animal_fats",k."Cereal_Excluding_Beer",k."Eggs",k."Fish_Seafood",k."Fruits_Excluding_Wine",k."Meat",k."Milk_Excluding_Butter",k."Miscellaneous",k."Offals",k."Oilcrops",k."Pulses",k."Spices",k."Starchy_Roots",k."Stimulants",k."Sugar_Crops",k."Treenuts",k."Vegetal_Products",k."Vegetable_Oils",k."Vegtables",k."Obesity",k."Population"
-INTO happiness_kcal_by_country
+SELECT w.country, w.happiness_score, k."Alcoholic_Beverages",k."Animal_Products",k."Animal_fats",k."Cereal_Excluding_Beer",k."Eggs",k."Fish_Seafood",k."Fruits_Excluding_Wine",k."Meat",k."Milk_Excluding_Butter",k."Miscellaneous",k."Offals",k."Oilcrops",k."Pulses",k."Spices",k."Starchy_Roots",k."Stimulants",k."Sugar_Crops",k."Sugar_Sweeteners",k."Treenuts",k."Vegetal_Products",k."Vegetable_Oils",k."Vegetables",k."Obesity",k."Population"
+--INTO happiness_kcal_by_country
 FROM "World_Happiness" as w
 INNER JOIN "Kcal_by_Country" as k
 ON (w.country = k."Country")
@@ -26,7 +26,7 @@ ORDER BY w.country;
 
 -- Retrieve country and happiness scores related to Sugar_Sweeteners
 -- Creat a table, "sugar_and_happiness"
-SELECT w.country, w.happiness_score, k."Sugar_Sweetners"
+SELECT w.country, w.happiness_score, k."Sugar_Sweeteners"
 -- INTO sugar_and_happiness
 FROM "World_Happiness" as w
 INNER JOIN "Kcal_by_Country" as k
@@ -53,7 +53,7 @@ ORDER BY w.country;
 
 -- Retrieve country and happiness scores related to Vegetables
 -- Create a table, "vegetables_and_happiness"
-SELECT w.country, w.happiness_score, k."Vegtables"
+SELECT w.country, w.happiness_score, k."Vegetables"
 -- INTO vegetables_and_happiness
 FROM "World_Happiness" as w
 INNER JOIN "Kcal_by_Country" as k
