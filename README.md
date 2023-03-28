@@ -83,3 +83,5 @@ Mean Absolute Error: 0.592440629442399
 Mean Square Error: 0.5334936507188065
 Root Mean Square Error: 0.7304064969034754
 ```
+Project Status as of 3.23.2023
+![image](https://user-images.githubusercontent.com/115942978/228391860-49418c68-e5df-4893-981e-5d9170f9b893.png)
