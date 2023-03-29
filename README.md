@@ -83,7 +83,7 @@ Mean Absolute Error: 0.592440629442399
 Mean Square Error: 0.5334936507188065
 Root Mean Square Error: 0.7304064969034754
 ```
-Phase 1: Project Status as of 3.23.2023
+**Phase 1: Project Status as of 3.23.2023**
 | Task                                     | Date        | Assigned To | Status   | Details                                                                    |
 |------------------------------------------|-------------|-------------|----------|----------------------------------------------------------------------------|
 | Create Project Plan                      | 3/16/2023   | Tana        | Complete | Decided Trello was not necessary                                           |
