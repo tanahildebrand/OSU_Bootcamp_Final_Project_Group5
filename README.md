@@ -84,6 +84,7 @@ Mean Square Error: 0.5334936507188065
 Root Mean Square Error: 0.7304064969034754
 ```
 **Phase 1: Project Status as of 3.23.2023**
+
 The group is utilizing Google document to track and communicate goals.
 | Task                                     | Date        | Assigned To | Status   | Details                                                                    |
 |------------------------------------------|-------------|-------------|----------|----------------------------------------------------------------------------|
