@@ -31,11 +31,11 @@ The World Happiness Dataset for 2021 was loaded into a pandas dataframe. The fol
 ![image](https://user-images.githubusercontent.com/115942978/227724159-f0843943-a381-4500-b0ae-55fa1d4a40b0.png)
 
 The raw data from the Covid19 Healthy Diet Dataset was uploaded to Pandas. The following steps were utilized to clean the data:
-- `df.describe()`: creates descriptive statistics of a Pandas DataFrame
-- `df.dtypes`: shows the data type of each column in the DataFrame
-- `df.drop`: method to eliminate specified labels from rows or columns in a DataFrame
-- `df.isnull().sum()`: returns the number of missing values (NaN) in each column of the DataFrame
-- `df.dropna()`: removes rows or columns with missing values from a DataFrame
+- `df.describe()`: creates descriptive statistics of a Pandas DataFrame.
+- `df.dtypes`: shows the data type of each column in the DataFrame.
+- `df.drop`: method to eliminate specified labels from rows or columns in a DataFrame.
+- `df.isnull().sum()`: returns the number of missing values (NaN) in each column of the DataFrame.
+- `df.dropna()`: removes rows or columns with missing values from a DataFrame.
 
 The final result was saved as kcal_by_country_df.csv with an end result of 170 total countries. (food_supply_df)
 ![image](https://user-images.githubusercontent.com/115942978/227000762-dc3b1440-ad32-447e-8bd7-10dc580f19e1.png)
