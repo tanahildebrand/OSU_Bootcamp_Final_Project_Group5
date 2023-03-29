@@ -83,7 +83,25 @@ Mean Absolute Error: 0.592440629442399
 Mean Square Error: 0.5334936507188065
 Root Mean Square Error: 0.7304064969034754
 ```
-**Phase 1: Project Status as of 3.23.2023**
+
+## Technology Breakdown
+
+Python and Jupyter Notebook: utilized to clean and prepare csv files, convert to ready to use dataframes, create visual images for correlation, and save results as csv files
+
+www.quickdatabasediagrams.com/: utilized to create Entity Relationship Diagram (ERD)
+
+PostgreSQL and PGAdmin: utilized to combine two separate dataframes into one dataframe
+
+Amazon AWS: utilized to support database management tasks
+
+Portable Network Graphics (PNG): utilized to save charts, images, screenshots for later reference
+
+Regression analysis: utilized to examine and determine food and happiness correlations
+
+GitHub and Google sheets: utilized to document, exchange data, and track group’s tasks and progress
+
+
+## Phase 1: Project Status as of 3.23.2023
 | Task                                     | Date        | Assigned To | Status   | Details                                                                    |
 |------------------------------------------|-------------|-------------|----------|----------------------------------------------------------------------------|
 | Create Project Plan                      | 3/16/2023   | Tana        | Complete | Decided Trello was not necessary                                           |
