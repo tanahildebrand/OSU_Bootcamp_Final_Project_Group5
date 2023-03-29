@@ -83,23 +83,23 @@ Mean Absolute Error: 0.592440629442399
 Mean Square Error: 0.5334936507188065
 Root Mean Square Error: 0.7304064969034754
 ```
-Project Status as of 3.23.2023
+Phase 1: Project Status as of 3.23.2023
 | Task                                     | Date        | Assigned To | Status   | Details                                                                    |
 |------------------------------------------|-------------|-------------|----------|----------------------------------------------------------------------------|
-| Create Project Plan                      | 3/16/2023   | Tana        | Complete | Decided Trello was not necessary                                          |
+| Create Project Plan                      | 3/16/2023   | Tana        | Complete | Decided Trello was not necessary                                           |
 | Determine Meeting Availability            | 3/14/2023   | Team        | Complete | "Aaron - after 3pm 7 days a week <br> Laurice - No M, T, Th - other days any time <br> Mary - Thursday all day, Friday and remainder of time is open <br> Shameen - after 5 or any time on the weekend (ok during the day is needed) <br> Tana - after 5 or any time on the weekend" |
 | Phase 1                                  |             |             |          |                                                                            |
 | Decide on a topic for the project         | 3/14/2023   | Team        | Complete | Can Social Media usage predict the World Happiness Score?                 |
 | Create a repository for the project       | 3/14/2023   | Tana        | Complete | Repo: https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5 |
-| Clone the repository - ALL                | 3/16/2023   | ALL         | Complete |                                                                            |
+| Clone the repository - ALL                | 3/16/2023   | ALL         | Complete |                                                                           |
 | Data Set Sourcing                        |             |             |          |                                                                            |
-| World Happiness Info (2021)               | 3/16/2023   | Aaron       | Complete |                                                                            |
+| World Happiness Info (2021)               | 3/16/2023   | Aaron       | Complete |                                                                           |
 | Food Supply                              | 3/16/2023   | Team        | Complete | https://www.kaggle.com/datasets/mariaren/covid19-healthy-diet-dataset?select=Food_Supply_Quantity_kg_Data.csv |
 | Start the README draft start              | 3/16/2023   | Tana        | Complete |                                                                            |
 | Clean Dataset for "World Happiness Info"  | 17-Mar      | Aaron       | Complete | Branch merged                                                              |
 | Clean Dataset for "Food Supply"           | 17-Mar      | Laurice     | Complete | Branch merged                                                              |
 | Create visualization of databases         | 20-Mar      | Shameen     | Complete | Needs to upload to git hub                                                 |
-| Create databases in PostgresSQL           | 21-Mar      | Mary        | Complete | Requires AWS for storage                                                    |
-| Include mock-ups of a machine learning model and a database | 22-Mar | Tana | Complete |                                                                  |
+| Create databases in PostgresSQL           | 21-Mar      | Mary        | Complete | Requires AWS for storage                                                   |
+| Include mock-ups of a machine learning model and a database | 22-Mar | Tana | Complete |                                                                      |
 | Update README file with work completed    | 22-Mar      | ALL         | Complete |                                                                            |
 | Submit Assignment                        | 23-Mar      | ALL         | In Progress | https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/tree/segment-01-submission |
