@@ -86,7 +86,7 @@ Root Mean Square Error: 0.7304064969034754
 
 ## Technology Breakdown
 
-Python and Jupyter Notebook: utilized to clean and prepare csv files, convert to ready to use dataframes, create visual images for correlation, and save results as csv files
+Python and Jupyter Notebook: utilized to clean and prepare csv files, convert to ready to use dataframes, create visual images for correlation, and save results as csv files or png images.
 
 www.quickdatabasediagrams.com/: utilized to create Entity Relationship Diagram (ERD)
 
