@@ -1,4 +1,4 @@
-# Does what you eat make you happy?
+# DOES WHAT YOU EAT MAKE YOU HAPPY?
 
 ## Topic
 The World Happiness Report is an annual report published by the United Nations Sustainable Development Solutions Network that ranks countries by their happiness levels. The report takes into account a variety of factors such as income, social support, freedom to make life choices, generosity, perceptions of corruption, and overall well-being to determine the happiness levels of people in different countries.
