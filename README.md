@@ -121,3 +121,17 @@ GitHub and Google sheets: utilized to document, exchange data, and track groupâ€
 | Include mock-ups of a machine learning model and a database | 22-Mar | Tana | Complete |                                                                      |
 | Update README file with work completed    | 22-Mar      | ALL         | Complete |                                                                            |
 | Submit Assignment                        | 23-Mar      | ALL         | In Progress | https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/tree/segment-01-submission |
+
+## Phase 2
+
+<p align="center">
+<img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/6d1622a8eb4525766de49705400c50b29a32ea57/Images/MeatvsVege_chart.png">
+</p><br/>
+
+<p align="center">
+<img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/6d1622a8eb4525766de49705400c50b29a32ea57/Images/Cereal_chart.png">
+</p><br/>
+
+<p align="center">
+<img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/6d1622a8eb4525766de49705400c50b29a32ea57/Images/Sweetener_chart.png">
+</p><br/>
