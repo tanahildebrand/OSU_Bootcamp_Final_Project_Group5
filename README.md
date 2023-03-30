@@ -132,7 +132,23 @@ Mean Absolute Error: 0.5
 Mean Square Error: 0.358
 Root Mean Square Error: 0.598
 ```
+## Technology Breakdown
 
+ - Python (version 3.7) and Jupyter Notebook: utilized to clean and prepare csv files, convert to ready to use dataframes, create visual images for correlation, and save results as csv files or png images.
+ - www.quickdatabasediagrams.com/: utilized to create Entity Relationship Diagram (ERD)
+ - PostgreSQL and PGAdmin (version 4): utilized to combine two separate dataframes into one dataframe
+ - Amazon AWS: utilized to support database management tasks
+ - Portable Network Graphics (PNG): utilized to save charts, images, screenshots for later reference
+ - Multiple Linear Regression Analysis: utilized to examine and determine food and happiness correlations
+ - GitHub, Google sheets and Slack: utilized to document, exchange data, communicate and track group’s tasks and progress
+ - Kaggle.com: data set resources
+
+## Project Status
+We continue to track our project requirements in Google Sheets. Our project plan and status is below. We are on track with this week's submission. Our presentation is located [here](https://docs.google.com/presentation/d/1QtRF6xd4Vp6nMN-invJrLExt_t4Q523mfcspb5VvcAQ/edit#slide=id.g21057df2cb3_0_74). We have already started our work on the dashboard.
+
+![image](https://user-images.githubusercontent.com/41657419/228987875-0bee097c-8037-4f76-8b27-dcc15e4a1081.png)
+
+## Dashboard
 <p align="center">
 <img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/6d1622a8eb4525766de49705400c50b29a32ea57/Images/MeatvsVege_chart.png">
 </p><br/>
@@ -144,35 +160,3 @@ Root Mean Square Error: 0.598
 <p align="center">
 <img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/6d1622a8eb4525766de49705400c50b29a32ea57/Images/Sweetener_chart.png">
 </p><br/>
-
-
-## Technology Breakdown
-
- - Python and Jupyter Notebook: utilized to clean and prepare csv files, convert to ready to use dataframes, create visual images for correlation, and save results as csv files or png images.
- - www.quickdatabasediagrams.com/: utilized to create Entity Relationship Diagram (ERD)
- - PostgreSQL and PGAdmin: utilized to combine two separate dataframes into one dataframe
- - Amazon AWS: utilized to support database management tasks
- - Portable Network Graphics (PNG): utilized to save charts, images, screenshots for later reference
- - Regression analysis: utilized to examine and determine food and happiness correlations
- - GitHub and Google sheets: utilized to document, exchange data, and track group’s tasks and progress
-
-## Phase 1: Project Status as of 3.23.2023
-| Task                                     | Date        | Assigned To | Status   | Details                                                                    |
-|------------------------------------------|-------------|-------------|----------|----------------------------------------------------------------------------|
-| Create Project Plan                      | 3/16/2023   | Tana        | Complete | Decided Trello was not necessary                                           |
-| Determine Meeting Availability            | 3/14/2023   | Team        | Complete | "Aaron - after 3pm 7 days a week <br> Laurice - No M, T, Th - other days any time <br> Mary - Thursday all day, Friday and remainder of time is open <br> Shameen - after 5 or any time on the weekend (ok during the day is needed) <br> Tana - after 5 or any time on the weekend" |
-| Phase 1                                  |             |             |          |                                                                            |
-| Decide on a topic for the project         | 3/14/2023   | Team        | Complete | Can Social Media usage predict the World Happiness Score?                 |
-| Create a repository for the project       | 3/14/2023   | Tana        | Complete | Repo: https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5 |
-| Clone the repository - ALL                | 3/16/2023   | ALL         | Complete |                                                                           |
-| Data Set Sourcing                        |             |             |          |                                                                            |
-| World Happiness Info (2021)               | 3/16/2023   | Aaron       | Complete |                                                                           |
-| Food Supply                              | 3/16/2023   | Team        | Complete | https://www.kaggle.com/datasets/mariaren/covid19-healthy-diet-dataset?select=Food_Supply_Quantity_kg_Data.csv |
-| Start the README draft start              | 3/16/2023   | Tana        | Complete |                                                                            |
-| Clean Dataset for "World Happiness Info"  | 17-Mar      | Aaron       | Complete | Branch merged                                                              |
-| Clean Dataset for "Food Supply"           | 17-Mar      | Laurice     | Complete | Branch merged                                                              |
-| Create visualization of databases         | 20-Mar      | Shameen     | Complete | Needs to upload to git hub                                                 |
-| Create databases in PostgresSQL           | 21-Mar      | Mary        | Complete | Requires AWS for storage                                                   |
-| Include mock-ups of a machine learning model and a database | 22-Mar | Tana | Complete |                                                                      |
-| Update README file with work completed    | 22-Mar      | ALL         | Complete |                                                                            |
-| Submit Assignment                        | 23-Mar      | ALL         | In Progress | https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/tree/segment-01-submission |
