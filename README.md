@@ -124,6 +124,53 @@ GitHub and Google sheets: utilized to document, exchange data, and track groupâ€
 
 ## Phase 2
 
+### Improving the Multiple Linear Regression Model
+
+There are two tactics to improving our Multiple Linear Regression Machine Learning Model at this point: addressing the strength of the dataset and adjusting the hyperparameters. First, we're run individual Linear Regression Models for each of the ten categories identified to demonstrate correlations in the scatterplots. Measuring the coefficient of determination(r-squared value), we'll list out the datasets for their strength in the model and select to top five performing models.
+
+![Image of Individual Linear Regression Models and their coeffecients of determination](https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/main/Images/single_linear_regression_results.png)
+
+Now we can approach re-working our Multiple Linear Regression Model with a restricted dataset.
+
+```
+# Selecting the top 5 columns for highest R-value during individual testing for X.
+X = df[['Animal_fats', 'Animal_Products', 'Cereal_Excluding_Beer', 'Eggs', 'Meat']]
+# happiness_score is the dependent variable.
+y = df['happiness_score']
+```
+
+Next, we'll adjust the hyperparameters. In this circumstance, we'll be dealing with the test size and random_state modeling.
+
+```
+from sklearn.model_selection import train_test_split
+x_train, x_test, y_train, y_test = train_test_split(X, y, test_size = 0.4, random_state = 150)
+```
+
+Then we'll engage in fitting our model, getting our coefficient and intercept, building our predicter dataset and comparing it to the test set. Finally, we'll evaluate our model.
+
+```
+# Model Evaluation
+from sklearn import metrics
+meanAbErr = metrics.mean_absolute_error(y_test, y_pred_model)
+meanSqErr = metrics.mean_squared_error(y_test, y_pred_model)
+rootMeanSqErr = np.sqrt(metrics.mean_squared_error(y_test, y_pred_model))
+print('R squared: {:.2f}'.format(model.score(X,y)*100))
+print('Mean Absolute Error:', meanAbErr)
+print('Mean Square Error:', meanSqErr)
+print('Root Mean Square Error:', rootMeanSqErr)
+```
+
+And our results:
+
+R squared: 61.39
+
+Mean Absolute Error: 0.5
+
+Mean Square Error: 0.358
+
+Root Mean Square Error: 0.598
+
+
 <p align="center">
 <img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/6d1622a8eb4525766de49705400c50b29a32ea57/Images/MeatvsVege_chart.png">
 </p><br/>
