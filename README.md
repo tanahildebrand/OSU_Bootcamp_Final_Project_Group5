@@ -145,18 +145,3 @@ Root Mean Square Error: 0.598
 
 ## Project Status
 We continue to track our project requirements in Google Sheets. Our project plan and status is below. We are on track with this week's submission. Our presentation is located [here](https://docs.google.com/presentation/d/1QtRF6xd4Vp6nMN-invJrLExt_t4Q523mfcspb5VvcAQ/edit#slide=id.g21057df2cb3_0_74). We have already started our work on the dashboard.
-
-![image](https://user-images.githubusercontent.com/41657419/228987875-0bee097c-8037-4f76-8b27-dcc15e4a1081.png)
-
-## Dashboard
-<p align="center">
-<img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/6d1622a8eb4525766de49705400c50b29a32ea57/Images/MeatvsVege_chart.png">
-</p><br/>
-
-<p align="center">
-<img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/6d1622a8eb4525766de49705400c50b29a32ea57/Images/Cereal_chart.png">
-</p><br/>
-
-<p align="center">
-<img src="https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/6d1622a8eb4525766de49705400c50b29a32ea57/Images/Sweetener_chart.png">
-</p><br/>
