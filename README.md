@@ -146,4 +146,4 @@ Root Mean Square Error: 0.598
  - Kaggle.com: data set resources
 
 ## Project Status
-We continue to track our project requirements in Google Sheets. Our project plan and status is below. We are on track with this week's submission. Our presentation is located [here](https://docs.google.com/presentation/d/1QtRF6xd4Vp6nMN-invJrLExt_t4Q523mfcspb5VvcAQ/edit#slide=id.g21057df2cb3_0_74). We have already started our work on the dashboard.
+We continue to track our project requirements in Google Sheets. Our project plan and status is below. We are on track with this week's submission. Our presentation is located [here](https://docs.google.com/presentation/d/1bJti7i7OsSqkBJpGAXG6CWFfJvWhokwM/edit?usp=sharing&ouid=109903281848604048813&rtpof=true&sd=true). We have already started our work on the dashboard.
