@@ -143,6 +143,7 @@ Root Mean Square Error: 0.598
  - Multiple Linear Regression Analysis: utilized to examine and determine food and happiness correlations
  - GitHub, Google sheets and Slack: utilized to document, exchange data, communicate and track group’s tasks and progress
  - Kaggle.com: data set resources
+ - Tableau: utilized for dashboard presentation
  
  ## Phase 3
  
