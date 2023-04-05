@@ -148,6 +148,7 @@ Root Mean Square Error: 0.598
  
  Tableau Dashboard:
  Charts are created from the correlating data.
+ [Dashboard](https://public.tableau.com/app/profile/tana.hildebrand/viz/Doeswhatyoueatmakeyouhappy/Story?publish=yes)
  - Vegetable vs Meat
  - Obesity
  - Stimulants
