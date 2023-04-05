@@ -14,12 +14,11 @@ Our team utilized Kaggle.com to obtain our data sets. Kaggle is an online commun
    - Of the the 4 datasets available, we chose to use the energy intake (kcal) dataset as we felt calories were the most commonly looked at metric. The kcal is calculated as percentage of total intake amount. The data set also includes COVID-19 data, which we removed since it is not pertinent to our study. The data used is from 2021.
 
 ## Questions
- - Can the foods we eat really affect our happiness?
+ - Do the foods we eat really affect our happiness?
  - Carnivores vs. Vegetarians - who’s happier?
- - Do carbs, something we all love to eat, really bring us joy?
- - How do chocolates and candies affect our happiness?
- - Does being overweight have a negative affect on us?
- - Does taking stimulants (coffee) change our level of happiness?
+ - Can carbs, something we all love to eat, really bring us joy?
+ - Would being overweight have a negative affect on us?
+ - Does taking stimulants like coffee change our level of happiness?
 
 ## Discovery
 
