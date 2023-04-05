@@ -144,6 +144,18 @@ Root Mean Square Error: 0.598
  - Multiple Linear Regression Analysis: utilized to examine and determine food and happiness correlations
  - GitHub, Google sheets and Slack: utilized to document, exchange data, communicate and track group’s tasks and progress
  - Kaggle.com: data set resources
+ 
+ ## Phase 3
+ 
+ Tableau Dashboard:
+ Charts are created from the correlating data.
+ - Vegetable vs Meat
+ - Obesity
+ - Stimulants
+ - Cereal
+ 
+ Presentation in Google Sheets:
+  [click here](https://docs.google.com/presentation/d/1bJti7i7OsSqkBJpGAXG6CWFfJvWhokwM/edit?usp=sharing&ouid=109903281848604048813&rtpof=true&sd=true)
 
 ## Project Status
 We continue to track our project requirements in Google Sheets. Our project plan and status is below. We are on track with this week's submission. Our presentation is located [here](https://docs.google.com/presentation/d/1bJti7i7OsSqkBJpGAXG6CWFfJvWhokwM/edit?usp=sharing&ouid=109903281848604048813&rtpof=true&sd=true). We have already started our work on the dashboard.
