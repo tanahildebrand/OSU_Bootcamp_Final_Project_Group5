@@ -17,7 +17,7 @@ Our team utilized Kaggle.com to obtain our data sets. Kaggle is an online commun
  - Do the foods we eat really affect our happiness?
  - Carnivores vs. Vegetarians - who’s happier?
  - Can carbs, something we all love to eat, really bring us joy?
- - Would being overweight have a negative affect on us?
+ - Can obesity predict happiness?
  - Does taking stimulants like coffee change our level of happiness?
 
 ## Discovery
