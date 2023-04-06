@@ -133,6 +133,42 @@ Mean Absolute Error: 0.5
 Mean Square Error: 0.358
 Root Mean Square Error: 0.598
 ```
+
+### Alternative Machine Learning Model: Logistic Regression
+
+Attempting to improve accuracy by binning the happiness score of each country into two categories: Happy and Unhappy. Then utilizing a logical algorithm to determine which bin the country may find itself based on its dietary data. First, let's create some bins.
+
+```
+happiness= pd.cut(df.happiness_score,bins=[0,4.99,10],labels=['Unhappy','Happy'])
+# Adding Happiness column to the DataFrame
+df.insert(1, 'Happiness', happiness)
+# Dropping unhelpful columns
+# 'country' is a string column/label
+# 'happiness_score' is redundant
+# 'Population' is not a dietary dataset
+df=df.drop(columns=['country', 'happiness_score', 'Population'], axis=1)
+```
+
+Creating our variables, including all of the dietary datasets.
+
+```
+# Create our features
+X = pd.get_dummies(df.drop('Happiness', axis=1))
+
+# Create our target
+y = df['Happiness']
+```
+
+We'll train the dataset.
+
+```
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
+Counter(y_train)
+```
+
+SMOTE was the most successful algorithm.
+
 ## Technology Breakdown
 
  - Python (version 3.7) and Jupyter Notebook: utilized to clean and prepare csv files, convert to ready to use dataframes, create visual images for correlation, and save results as csv files or png images.
