@@ -194,10 +194,10 @@ Our accuracy score is 0.779 from this model.
  - Kaggle.com: data set resources.
  - Tableau: utilized for dashboard presentation.
  
- ## Future Considerarion
+ ## Future Consideration
  Add additional data soures to data set:
  
-  - Religion Breakdown <End>
+ - Religion Breakdown <End>
  - Additional years of data sources <End>
  - Exercise Habits <End>
  - Pollution/Water Quality <End>
