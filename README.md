@@ -182,12 +182,6 @@ model.fit(X_resampled, y_resampled)
 
 Our accuracy score is 0.779 from this model.
 
-Our confusion matrix:
-
-![Image of Confusion Matrix](https://github.com/tanahildebrand/OSU_Bootcamp_Final_Project_Group5/blob/main/Images/confusion_matrix.png)
-
-And an avg F1 score of 0.75
-
 ## Technology Breakdown
 
  - Python (version 3.7) and Jupyter Notebook: utilized to clean and prepare csv files, convert to ready to use dataframes, create visual images for correlation, and save results as csv files or png images.
@@ -200,6 +194,15 @@ And an avg F1 score of 0.75
  - Kaggle.com: data set resources.
  - Tableau: utilized for dashboard presentation.
  
+ ## Future Considerarion
+ Add additional data soures to data set:
+ 
+  - Religion Breakdown <End>
+ - Additional years of data sources <End>
+ - Exercise Habits <End>
+ - Pollution/Water Quality <End>
+ - Holiday (PTO) Availability <End>
+ 
  ## Phase 3
  
  Tableau Dashboard:
@@ -210,7 +213,7 @@ And an avg F1 score of 0.75
  - Stimulants
  - Cereal
  
- Presentation in Google Sheets:
+ ## Presentation in Google Sheets:
   [click here](https://docs.google.com/presentation/d/1bJti7i7OsSqkBJpGAXG6CWFfJvWhokwM/edit?usp=sharing&ouid=109903281848604048813&rtpof=true&sd=true)
 
 ## Project Status
