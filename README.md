@@ -169,6 +169,19 @@ Counter(y_train)
 
 SMOTE was the most successful algorithm.
 
+```
+# Resample the training data with SMOTE
+from imblearn.over_sampling import SMOTE
+X_resampled, y_resampled = SMOTE(random_state=1,
+sampling_strategy='auto').fit_resample(
+   X_train, y_train)
+# Train the Logistic Regression model using the resampled data
+model = LogisticRegression(solver='lbfgs', random_state=1)
+model.fit(X_resampled, y_resampled)
+```
+
+Our accuracy score is 0.779 from this model.
+
 ## Technology Breakdown
 
  - Python (version 3.7) and Jupyter Notebook: utilized to clean and prepare csv files, convert to ready to use dataframes, create visual images for correlation, and save results as csv files or png images.
