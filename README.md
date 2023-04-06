@@ -142,8 +142,8 @@ Root Mean Square Error: 0.598
  - Portable Network Graphics (PNG): utilized to save charts, images, screenshots for later reference.
  - Multiple Linear Regression Analysis: utilized to examine and determine food and happiness correlations.
  - GitHub, Google sheets and Slack: utilized to document, exchange data, communicate and track group’s tasks and progress.
- - Kaggle.com: data set resources
- - Tableau: utilized for dashboard presentation
+ - Kaggle.com: data set resources.
+ - Tableau: utilized for dashboard presentation.
  
  ## Phase 3
  
