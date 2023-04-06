@@ -159,4 +159,4 @@ Root Mean Square Error: 0.598
   [click here](https://docs.google.com/presentation/d/1bJti7i7OsSqkBJpGAXG6CWFfJvWhokwM/edit?usp=sharing&ouid=109903281848604048813&rtpof=true&sd=true)
 
 ## Project Status
-We continue to track our project requirements in Google Sheets. Our project plan and status is below. We are on track with this week's submission. Our presentation is located [here](https://docs.google.com/presentation/d/1bJti7i7OsSqkBJpGAXG6CWFfJvWhokwM/edit?usp=sharing&ouid=109903281848604048813&rtpof=true&sd=true). We have already started our work on the dashboard.
+We continue to track our project requirements in Google Sheets. Our project plan and status is [here](https://docs.google.com/spreadsheets/d/1LIhvR-vd9o8yHBtCDBJJdH-NayF_C6F6t5K_anLwz5o/edit?usp=sharing). 
