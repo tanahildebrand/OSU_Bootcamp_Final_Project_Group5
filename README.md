@@ -139,7 +139,7 @@ Root Mean Square Error: 0.598
  - www.quickdatabasediagrams.com/: utilized to create Entity Relationship Diagram (ERD).
  - PostgreSQL and PGAdmin (version 4): utilized to combine two separate dataframes into one dataframe.
  - Amazon AWS: utilized to support database management tasks.
- - Portable Network Graphics (PNG): utilized to save charts, images, screenshots for later reference
+ - Portable Network Graphics (PNG): utilized to save charts, images, screenshots for later reference.
  - Multiple Linear Regression Analysis: utilized to examine and determine food and happiness correlations
  - GitHub, Google sheets and Slack: utilized to document, exchange data, communicate and track group’s tasks and progress
  - Kaggle.com: data set resources
