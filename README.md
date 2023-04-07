@@ -183,7 +183,7 @@ model.fit(X_resampled, y_resampled)
 Our accuracy score is 0.779 from this model.
 
 ## Technology Breakdown
-
+The following technologies were used throughout the course of our analysis:
  - Python (version 3.7) and Jupyter Notebook: utilized to clean and prepare csv files, convert to ready to use dataframes, create visual images for correlation, and save results as csv files or png images.
  - www.quickdatabasediagrams.com/: utilized to create Entity Relationship Diagram (ERD).
  - PostgreSQL and PGAdmin (version 4): utilized to combine two separate dataframes into one dataframe.
@@ -194,27 +194,21 @@ Our accuracy score is 0.779 from this model.
  - Kaggle.com: data set resources.
  - Tableau: utilized for dashboard presentation.
  
- ## Future Consideration
- Add additional data soures to data set:
- 
+## Future Consideration:
+For future analysis, we would want to add additional data soures to data set:
  - Religion Breakdown <End>
- - Additional years of data sources <End>
+ - Additional years of data sources beyond 2021 <End>
  - Exercise Habits <End>
  - Pollution/Water Quality <End>
  - Holiday (PTO) Availability <End>
  
- ## Phase 3
- 
- Tableau Dashboard:
- Charts are created from the correlating data.
- [Dashboard](https://public.tableau.com/app/profile/tana.hildebrand/viz/Doeswhatyoueatmakeyouhappy/Story?publish=yes)
+## Dashboard
+[Tableau Dashboard](https://public.tableau.com/app/profile/tana.hildebrand/viz/Doeswhatyoueatmakeyouhappy/Story?publish=yes):
+Charts are created from the correlating data.
+ - Predictive Foods (5 dashboards)
  - Vegetable vs Meat
  - Obesity
  - Stimulants
- - Cereal
- 
- ## Presentation in Google Sheets:
-  [click here](https://docs.google.com/presentation/d/1bJti7i7OsSqkBJpGAXG6CWFfJvWhokwM/edit?usp=sharing&ouid=109903281848604048813&rtpof=true&sd=true)
 
 ## Project Status
-We continue to track our project requirements in Google Sheets. Our project plan and status is [here](https://docs.google.com/spreadsheets/d/1LIhvR-vd9o8yHBtCDBJJdH-NayF_C6F6t5K_anLwz5o/edit?usp=sharing). 
+We continue to track our project tasks, due dates, owners and status in [Google Sheets](https://docs.google.com/spreadsheets/d/1LIhvR-vd9o8yHBtCDBJJdH-NayF_C6F6t5K_anLwz5o/edit?usp=sharing). Our project is summarized in a presentation located [here](https://docs.google.com/presentation/d/1bJti7i7OsSqkBJpGAXG6CWFfJvWhokwM/edit?usp=sharing&ouid=109903281848604048813&rtpof=true&sd=true).
