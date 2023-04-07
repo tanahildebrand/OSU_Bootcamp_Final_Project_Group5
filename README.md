@@ -195,12 +195,12 @@ The following technologies were used throughout the course of our analysis:
  - Tableau: utilized for dashboard presentation.
  
 ## Future Consideration:
-For future analysis, we would want to add additional data soures to data set:
- - Religion Breakdown <End>
- - Additional years of data sources beyond 2021 <End>
- - Exercise Habits <End>
- - Pollution/Water Quality <End>
- - Holiday (PTO) Availability <End>
+For future analysis, we would want to add additional data sources to data set:
+ - Religion Breakdown 
+ - Additional years of data sources beyond 2021 
+ - Exercise Habits 
+ - Pollution/Water Quality
+ - Holiday (PTO) Availability 
  
 ## Dashboard
 [Tableau Dashboard](https://public.tableau.com/app/profile/tana.hildebrand/viz/Doeswhatyoueatmakeyouhappy/Story?publish=yes):
